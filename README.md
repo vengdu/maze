@@ -1,4 +1,6 @@
-## PFF React Gita Game — react.js web app project template &nbsp; <a href="https://github.com/piaggiofastforward/react-gita-game"><img src="https://img.shields.io/github/stars/piaggiofastforward/react-gita-game.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/p_f_f"><img src="https://img.shields.io/twitter/follow/p_f_f.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
+# PFF React Gita Game
+
+## Gita Maze — react.js web app project template &nbsp; <a href="https://github.com/piaggiofastforward/react-gita-game"><img src="https://img.shields.io/github/stars/piaggiofastforward/react-gita-game.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/p_f_f"><img src="https://img.shields.io/twitter/follow/p_f_f.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
 This has been adapted from [react-starter-kit](https://www.reactstarterkit.com/) with their setup instructions below. All code is released under an MIT license, and is freely editable. Please adopt the patterns present in the parent project, unless you believe they are done incorrectly and you can stand by your decision.
 
@@ -50,6 +52,14 @@ If you would like to continue to make your project extra special there is always
 - (+++) Implement logins and persistence between sessions, including previous scores.
 - (+++) You implement a maze solving algorithm to allow Gita to complete the maze autonomously. If you do this, use gita_autonomous.png to represent Gita.
 
+### License
+
+Copyright © 2014-present Piaggio Fast Forward, inc. This source code is licensed under the MIT
+license found in the [LICENSE.txt](https://github.com/piaggiofastforward/react-gita-game/blob/master/LICENSE.txt)
+file. The documentation to the project is licensed under the
+[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
+
+
 ## React Starter Kit — "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web app boilerplate &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
 [React Starter Kit](https://www.reactstarterkit.com) is an opinionated boilerplate for web
@@ -86,12 +96,3 @@ and newcomers to the industry.
   * [GraphQL Starter Kit](https://github.com/kriasoft/graphql-starter-kit) — Boilerplate for building data APIs with Node.js, JavaScript (via Babel) and GraphQL
   * [Membership Database](https://github.com/membership/membership.db) — SQL schema boilerplate for user accounts, profiles, roles, and auth claims
   * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring JavaScript/React.js libraries
-
-
-### License
-
-# TODO Replace Kriasoft references.
-Copyright © 2014-present Kriasoft, LLC. This source code is licensed under the MIT
-license found in the [LICENSE.txt](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt)
-file. The documentation to the project is licensed under the
-[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
