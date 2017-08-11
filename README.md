@@ -6,9 +6,8 @@ This has been adapted from [react-starter-kit](https://www.reactstarterkit.com/)
 
 Follow these steps to complete this project:
 
-1. Fork our repo
-2. Review the included [wireframe](./docs/designs/1920_wireframe.pdf) to get colors, styles, and other design considerations.
-- The Go button starts the current game
+1. [Download this repo](https://github.com/piaggiofastforward/react-gita-game/archive/master.zip).
+2. Review the included [wireframe](./docs/designs/wireframes/1920_wireframe.pdf) to get colors, styles, and other design considerations.
 3. This is a react.js project, if you are not familiar with react, please check below for helpful information.
 4. Integrate https://www.npmjs.com/package/generate-maze for maze generation.
 - The maze should be exactly 20 x 20.
@@ -17,10 +16,12 @@ Follow these steps to complete this project:
 - The maze and movement through the maze should be grid-based
 5. Create a view to represent the generated maze layout in appropriate colors and shapes.
 6. Integrate https://dmauro.github.io/Keypress/ if you use keyboard input, otherwise use mouse input.
+7. Make the best version of the game that you can!
+8. Send us your submission along with all git history.
 
 ### Game Design ###
-The game is called Gita Maze, and in this game you will take a Gita and move it through an environment to get to the goal.
-When you reach the goal the level is completed and your score is calculated.
+The game is called Gita Maze, and in this game you will take a Gita and move it through an environment to reach the goal.
+When you reach the goal the level is completed and your score is calculated and displayed.
 
 #### Game Mechanics ####
 - Gita starts with 100 energy.
@@ -46,6 +47,7 @@ Please send us a link to your repo or make a pull request to ours, we look forwa
 ### Bonus Points ###
 If you would like to continue to make your project extra special there is always extra credit for completing any of the following:
 
+- (+) You make a PR to fix something in this repo, and it is accepted.
 - (+) You implement the sound effects found in /sounds.
 - (+) The application is responsive and works on a variety of window sizes.
 - (++) Multiple levels, with less energy pods as you get to higher levels.
