@@ -1,7 +1,24 @@
-import { configure } from '@storybook/react';
+import { configure, addDecorator } from '@storybook/react';
+import ContextProvider from './ContextProvider';
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const req = require.context('../src/components', true, /.stories.js$/)
 
 function loadStories() {
-  require('../stories');
+  req.keys().forEach((filename) => req(filename))
 }
+
+const context = {
+  insertCss: () => {
+
+  }
+};
+
+addDecorator(story => (
+  <ContextProvider context={context}>
+    {story()}
+  </ContextProvider>
+));
 
 configure(loadStories, module);

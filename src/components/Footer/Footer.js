@@ -28,4 +28,5 @@ class Footer extends React.Component {
   }
 }
 
+// export { Footer as FooterWithoutStyle };
 export default withStyles(s)(Footer);

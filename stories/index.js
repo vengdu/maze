@@ -13,3 +13,10 @@ storiesOf('Welcome', module).add('to Storybook', () =>
 storiesOf('Button', module).add('with text', () =>
   <Button onClick={action('clicked')}>Hello Button</Button>,
 );
+
+/* storiesOf('Footer',module).add('default', () =>
+	<FooterWithoutStyle />,
+)
+.add('styled', () =>
+	<Footer />,
+);*/
